@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:ui' as ui;
 
 void main() {
   runApp(AnimatedTabBar());
@@ -39,8 +38,6 @@ class BottomBar extends StatefulWidget {
 }
 
 class _BottomBarState extends State<BottomBar> {
-  late Color _activeColor;
-  Color _mainColor = Colors.white;
   List<Color> iconColors = [
     Colors.yellow[400]!,
     Colors.green[400]!,
